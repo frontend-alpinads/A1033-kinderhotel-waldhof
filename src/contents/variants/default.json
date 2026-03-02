@@ -1,570 +1,1041 @@
 {
   "$schema": "../variant-spec.schema.json",
   "sectionVariants": [
-    { "hero": "v1" },
-    { "about": "v4" },
-    { "features": "v4" },
-    { "offers": "v1" },
-    { "rooms": "v6" },
-    { "gallery": "v5" },
-    { "testimonials": "v6" },
-    { "faqs": "v1" },
-    { "enquiry": "v1" },
-    { "footer": "v2" }
+    {
+      "hero": "v3"
+    },
+    {
+      "about": "v2"
+    },
+    {
+      "features": "v3"
+    },
+    {
+      "offers": "v2"
+    },
+    {
+      "rooms": "v4"
+    },
+    {
+      "gallery": "v3"
+    },
+    {
+      "testimonials": "v2"
+    },
+    {
+      "faqs": "v1"
+    },
+    {
+      "enquiry": "v1"
+    },
+    {
+      "footer": "v2"
+    }
   ],
   "content": {
     "hero": {
-      "title": {
-        "de": "Urlaub in Südtirol",
-        "en": "Holiday in South Tyrol",
-        "it": "Vacanza in Alto Adige"
+      "headline": {
+        "de": "Unvergesslicher Familienurlaub im Herzen der Salzburger Alpen",
+        "en": "Unforgettable Family Holidays in the Heart of the Salzburg Alps",
+        "it": "Vacanze familiari indimenticabili nel cuore delle Alpi Salisburghesi"
       },
-      "subtitle": {
-        "de": "Willkommen in unserem Hotel in den Dolomiten. Genießen Sie atemberaubende Berglandschaften, erstklassigen Service und unvergessliche Momente der Entspannung.",
-        "en": "Welcome to our hotel in the Dolomites. Enjoy breathtaking mountain landscapes, first-class service and unforgettable moments of relaxation.",
-        "it": "Benvenuti nel nostro hotel nelle Dolomiti. Godetevi paesaggi montani mozzafiato, servizio di prima classe e momenti di relax indimenticabili."
+      "subheadline": {
+        "de": "Das Premium Kinderhotel Waldhof in Großarl – wo Urlaubsträume für die ganze Familie wahr werden.",
+        "en": "The Premium Kinderhotel Waldhof in Großarl – where holiday dreams come true for the whole family.",
+        "it": "Il Premium Kinderhotel Waldhof a Großarl – dove i sogni di vacanza di tutta la famiglia diventano realtà."
       },
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
-      "bookingForm": {
-        "arrivalDeparture": {
-          "de": "Datum wählen",
-          "en": "Select Date",
-          "it": "Seleziona Data"
-        },
-        "arrivalDepartureLabel": {
-          "de": "Ankunft & Abreise",
-          "en": "Arrival & Departure",
-          "it": "Arrivo e Partenza"
-        },
-        "guests": {
-          "de": "Gäste",
-          "en": "Guests",
-          "it": "Ospiti"
-        },
-        "guestsLabel": {
-          "de": "Anzahl der Gäste wählen",
-          "en": "Select Number of Guests",
-          "it": "Seleziona Numero di Ospiti"
-        },
-        "adultsFormat": {
-          "one": {
-            "de": "1 Erwachsener",
-            "en": "1 Adult",
-            "it": "1 adulto"
+      "cta": {
+        "primary": {
+          "label": {
+            "de": "Jetzt unverbindlich anfragen",
+            "en": "Enquire now – no obligation",
+            "it": "Richiedi informazioni senza impegno"
           },
-          "other": {
-            "de": "{count} Erwachsene",
-            "en": "{count} Adults",
-            "it": "{count} adulti"
-          }
+          "href": "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/"
         },
-        "childrenFormat": {
-          "one": {
-            "de": "1 Kind",
-            "en": "1 Child",
-            "it": "1 bambino"
+        "secondary": {
+          "label": {
+            "de": "Zimmer & Preise entdecken",
+            "en": "Discover Rooms & Prices",
+            "it": "Scopri camere e prezzi"
           },
-          "other": {
-            "de": "{count} Kinder",
-            "en": "{count} Children",
-            "it": "{count} bambini"
-          }
-        },
-        "requestOffer": {
-          "de": "Anfragen",
-          "en": "Request Offer",
-          "it": "Richiedi"
+          "href": "https://www.kinderhotel-waldhof.at/zimmer-leistungen/zimmer-preise/"
         }
+      },
+      "images": [
+        "https://www.kinderhotel-waldhof.at/hotel-aussen/winter/2024/1100/image-thumb__1100__ce-intro-mobile/andreschoenherr_PANO0001-Pano.jpg",
+        "https://www.kinderhotel-waldhof.at/winter/skiwiese-skikurse/668/image-thumb__668__ce-hva-template-1/andreschoenherr_DSC1370.jpg",
+        "https://www.kinderhotel-waldhof.at/baden-wellness/trioslide-rutsche/1078/image-thumb__1078__ce-hva-template-2/andreschoenherr__NZ92388_higher.jpg",
+        "https://www.kinderhotel-waldhof.at/winter/familie-stimmung/625/image-thumb__625__ce-imageslider-landscape/andreschoenherr_DSC4697.jpg"
+      ],
+      "badge": {
+        "de": "Premium Kinderhotel ★★★★S",
+        "en": "Premium Kids Hotel ★★★★S",
+        "it": "Premium Hotel per Bambini ★★★★S"
       }
     },
     "about": {
-      "badge": {
-        "de": "Willkommen",
-        "en": "Welcome",
-        "it": "Benvenuti"
+      "headline": {
+        "de": "Wo Familienträume wahr werden",
+        "en": "Where Family Dreams Come True",
+        "it": "Dove i sogni di famiglia diventano realtà"
       },
-      "title": {
-        "de": "Unser Hotel",
-        "en": "Our Hotel",
-        "it": "Il Nostro Hotel"
+      "subheadline": {
+        "de": "Das Premium Kinderhotel Waldhof",
+        "en": "The Premium Kinderhotel Waldhof",
+        "it": "Il Premium Kinderhotel Waldhof"
       },
-      "description": {
-        "de": "Unser Hotel verbindet Tradition mit modernem Komfort. Eingebettet in die malerische Landschaft Südtirols, bieten wir Ihnen eine Oase der Ruhe und Entspannung. Genießen Sie großzügige Räumlichkeiten, erstklassigen Service und eine herzliche Atmosphäre.",
-        "en": "Our hotel combines tradition with modern comfort. Nestled in the picturesque landscape of South Tyrol, we offer you an oasis of peace and relaxation. Enjoy spacious rooms, first-class service and a warm atmosphere.",
-        "it": "Il nostro hotel unisce tradizione e comfort moderno. Immerso nel pittoresco paesaggio dell'Alto Adige, vi offriamo un'oasi di pace e relax. Godetevi spazi ampi, servizio di prima classe e un'atmosfera accogliente."
+      "text": {
+        "de": "Das großzügige Hotelareal des Kinderhotel Waldhof in Großarl, Salzburg, bietet allerlei Annehmlichkeiten und jede Menge spannende Aktivitäten – Indoor und Outdoor – um Ihren Familienurlaub perfekt zu machen. Bei uns bleiben keine Wünsche offen! Unsere umfangreichen Inklusivleistungen sind genau das Richtige für Groß und Klein. Mit 80 Stunden Kinder- und Babybetreuung pro Woche, einer eigenen Skiwiese, dem Indoor-Spieleparadies TUFFI, der 4.000 m² großen Gaudialm und einer traumhaften Bade- & Wellnesswelt schaffen wir einzigartige Urlaubserlebnisse für die ganze Familie.",
+        "en": "The generous hotel grounds of the Kinderhotel Waldhof in Großarl, Salzburg, offer a wealth of amenities and exciting activities – both indoor and outdoor – to make your family holiday perfect. No wishes go unfulfilled here! Our extensive all-inclusive services are perfect for young and old alike. With 80 hours of childcare per week, our own ski slope, the TUFFI indoor play paradise, the 4,000 m² fun meadow and a wonderful bathing & wellness world, we create unique holiday experiences for the whole family.",
+        "it": "L'ampia area dell'Hotel Waldhof a Großarl, Salisburgo, offre numerosi comfort e tantissime attività emozionanti – sia al chiuso che all'aperto – per rendere perfetta la vostra vacanza in famiglia. Da noi non rimane nessun desiderio insoddisfatto! I nostri ampi servizi all-inclusive sono perfetti per grandi e piccini. Con 80 ore settimanali di assistenza per bambini e neonati, una pista da sci privata, il paradiso giochi al coperto TUFFI, il Gaudialm di 4.000 m² e un meraviglioso mondo di bagni e benessere, creiamo esperienze di vacanza uniche per tutta la famiglia."
       },
-      "images": [
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg"
+      "image": "https://www.kinderhotel-waldhof.at/winter/familie-stimmung/625/image-thumb__625__ce-imageslider-landscape/andreschoenherr_DSC4697.jpg",
+      "stats": [
+        {
+          "value": "80h",
+          "label": {
+            "de": "Kinderbetreuung pro Woche",
+            "en": "Childcare per week",
+            "it": "Assistenza bambini a settimana"
+          }
+        },
+        {
+          "value": "4.000 m²",
+          "label": {
+            "de": "Gaudialm Outdoor-Erlebnis",
+            "en": "Outdoor Fun Meadow",
+            "it": "Prato divertimento all'aperto"
+          }
+        },
+        {
+          "value": "24/7",
+          "label": {
+            "de": "Service & Unterhaltung",
+            "en": "Service & Entertainment",
+            "it": "Servizio & Intrattenimento"
+          }
+        },
+        {
+          "value": "All Inclusive",
+          "label": {
+            "de": "Inklusive-Leistungen",
+            "en": "Inclusive Services",
+            "it": "Servizi inclusi"
+          }
+        }
       ]
     },
     "features": {
-      "badge": {
-        "de": "Ihre Urlaubs-Highlights",
-        "en": "Your Holiday Highlights",
-        "it": "I Vostri Lussi"
+      "headline": {
+        "de": "Warum wir Ihr neues Lieblingshotel werden",
+        "en": "Why We'll Become Your New Favourite Hotel",
+        "it": "Perché diventeremo il vostro nuovo hotel preferito"
       },
-      "title": {
-        "de": "Hochwertig, persönlich, natürlich",
-        "en": "High-quality, personalised, natural",
-        "it": "Qualità, intimità, naturalità"
-      },
-      "description": {
-        "de": "Erleben Sie unvergessliche Momente in Südtirol. Wandern, Skifahren, Wellness und kulinarische Genüsse erwarten Sie in einer der schönsten Regionen der Alpen.",
-        "en": "Experience unforgettable moments in South Tyrol. Hiking, skiing, wellness and culinary delights await you in one of the most beautiful regions of the Alps.",
-        "it": "Vivete momenti indimenticabili in Alto Adige. Escursioni, sci, wellness e delizie culinarie vi aspettano in una delle regioni più belle delle Alpi."
+      "subheadline": {
+        "de": "Unsere umfangreichen Inklusivleistungen für Groß und Klein",
+        "en": "Our extensive all-inclusive services for young and old",
+        "it": "I nostri ampi servizi all-inclusive per grandi e piccini"
       },
       "items": [
         {
+          "icon": "mountain-snow",
           "title": {
-            "de": "Restaurant & Terrasse",
-            "en": "Restaurant & Terrace",
-            "it": "Ristorante & Terrazza"
+            "de": "Hoteleigene Skiwiese",
+            "en": "Hotel's Own Ski Slope",
+            "it": "Pista da sci privata"
           },
           "description": {
-            "de": "Genießen Sie regionale Spezialitäten und internationale Küche auf unserer Sonnenterrasse mit Blick auf die Berge.",
-            "en": "Enjoy regional specialities and international cuisine on our sun terrace with mountain views.",
-            "it": "Gustate specialità regionali e cucina internazionale sulla nostra terrazza soleggiata con vista sulle montagne."
+            "de": "Skivergnügen direkt vor der Hoteltür – mit eigenem Skilift, Skischule und Premium Skiservice für die ganze Familie.",
+            "en": "Ski fun right on the hotel's doorstep – with a private ski lift, ski school and premium ski service for the whole family.",
+            "it": "Divertimento sugli sci direttamente davanti all'hotel – con risalita privata, scuola sci e premium ski service per tutta la famiglia."
           },
-          "imageSrc": "/placeholder.svg",
-          "iconName": "ForkKnifeIcon"
+          "image": "https://www.kinderhotel-waldhof.at/winter/skiwiese-skikurse/668/image-thumb__668__ce-hva-template-1/andreschoenherr_DSC1370.jpg"
         },
         {
+          "icon": "gamepad-2",
           "title": {
-            "de": "Wellness & Spa",
-            "en": "Wellness & Spa",
-            "it": "Wellness & Spa"
+            "de": "TUFFI Indoor Spieleparadies",
+            "en": "TUFFI Indoor Play Paradise",
+            "it": "TUFFI Paradiso giochi al coperto"
           },
           "description": {
-            "de": "Entspannen Sie in unserem Wellnessbereich mit Sauna, Dampfbad und Behandlungsräumen.",
-            "en": "Relax in our wellness area with sauna, steam bath and treatment rooms.",
-            "it": "Rilassatevi nella nostra area wellness con sauna, bagno turco e sale trattamenti."
+            "de": "Riesiges Indoor-Spieleparadies mit Bergwerk-Softplay, Kreativwerkstatt, Chill-out-Lounge und jeder Menge Spaß für Kinder jeden Alters.",
+            "en": "Huge indoor play paradise with mine-themed soft play, creative workshop, chill-out lounge and loads of fun for children of all ages.",
+            "it": "Enorme paradiso giochi al coperto con softplay a tema miniera, laboratorio creativo, sala chill-out e tanto divertimento per bambini di tutte le età."
           },
-          "imageSrc": "/placeholder.svg",
-          "iconName": "FlowerLotusIcon"
+          "image": "https://www.kinderhotel-waldhof.at/kinder/bergwerk_softplay/216/image-thumb__216__ce-hva-template-3/andreschoenherr_DSC2599.jpg"
         },
         {
+          "icon": "train",
           "title": {
-            "de": "Bergerlebnis",
-            "en": "Mountain Experience",
-            "it": "Esperienza Montana"
+            "de": "Almexpress TUFFI – Rodelspaß",
+            "en": "Almexpress TUFFI – Tobogganing Fun",
+            "it": "Almexpress TUFFI – Divertimento sullo slittino"
           },
           "description": {
-            "de": "Entdecken Sie die Dolomiten mit geführten Wanderungen, Skifahren und vielen weiteren Aktivitäten.",
-            "en": "Discover the Dolomites with guided hikes, skiing and many other activities.",
-            "it": "Scoprite le Dolomiti con escursioni guidate, sci e tante altre attività."
+            "de": "Mit dem hoteleigenen Almexpress TUFFI geht es direkt zum Rodelberg – ein unvergessliches Erlebnis für die ganze Familie!",
+            "en": "The hotel's own Almexpress TUFFI takes you directly to the toboggan run – an unforgettable experience for the whole family!",
+            "it": "L'Almexpress TUFFI dell'hotel porta direttamente alla pista di slittino – un'esperienza indimenticabile per tutta la famiglia!"
           },
-          "imageSrc": "/placeholder.svg",
-          "iconName": "MountainIcon"
+          "image": "https://www.kinderhotel-waldhof.at/winter/tuffi-rodeln/734/image-thumb__734__ce-hva-template-5/DSC03034.jpg"
+        },
+        {
+          "icon": "waves",
+          "title": {
+            "de": "Traumhafte Bade- & Wellnesswelt",
+            "en": "Stunning Bathing & Wellness World",
+            "it": "Meraviglioso mondo di bagni e benessere"
+          },
+          "description": {
+            "de": "Indoor- und Outdoor-Pools, Trioslide-Wasserrutsche, Infinity Pool, Whirlpool, Sauna & Spa – für entspannte Stunden für die ganze Familie.",
+            "en": "Indoor and outdoor pools, trioslide water slide, infinity pool, whirlpool, sauna & spa – for relaxing hours for the whole family.",
+            "it": "Piscine coperte e all'aperto, scivolo d'acqua trioslide, infinity pool, idromassaggio, sauna & spa – per ore di relax per tutta la famiglia."
+          },
+          "image": "https://www.kinderhotel-waldhof.at/baden-wellness/trioslide-rutsche/1078/image-thumb__1078__ce-hva-template-2/andreschoenherr__NZ92388_higher.jpg"
+        },
+        {
+          "icon": "wine",
+          "title": {
+            "de": "24/7 WeinZeit & Kulinarik",
+            "en": "24/7 WeinZeit & Culinary Delights",
+            "it": "24/7 WeinZeit e delizie culinarie"
+          },
+          "description": {
+            "de": "Genießen Sie rund um die Uhr unsere WeinZeit-Bar und exquisite Kulinarik – Essen & Trinken vollständig inklusive für einen sorgenfreien Urlaub.",
+            "en": "Enjoy our WeinZeit bar and exquisite cuisine around the clock – food & drinks fully included for a carefree holiday.",
+            "it": "Godetevi il nostro bar WeinZeit e la squisita cucina 24 ore su 24 – cibo e bevande completamente inclusi per una vacanza spensierata."
+          },
+          "image": "https://www.kinderhotel-waldhof.at/kulinarik/weinzeit/2025/1251/image-thumb__1251__ce-hva-template-4/andreschoenherr__NZ91844.jpg"
+        },
+        {
+          "icon": "baby",
+          "title": {
+            "de": "80h Kinder- & Babybetreuung",
+            "en": "80h Childcare & Baby Care",
+            "it": "80h Assistenza bambini e neonati"
+          },
+          "description": {
+            "de": "Herzliche und kompetente Betreuung für Babys, Kids und Teens – 80 Stunden pro Woche, damit Eltern wirklich entspannen können.",
+            "en": "Warm and professional care for babies, kids and teens – 80 hours per week, so parents can truly relax.",
+            "it": "Assistenza calorosa e competente per neonati, bambini e teenager – 80 ore a settimana, per permettere ai genitori di rilassarsi davvero."
+          },
+          "image": "https://www.kinderhotel-waldhof.at/kinder/kinderbetreuung/2019-2021/257/image-thumb__257__ce-hva-template-6/andreschoenherr_DSC8179.jpg"
+        },
+        {
+          "icon": "horse",
+          "title": {
+            "de": "Ponyreiten & Tiere erleben",
+            "en": "Pony Riding & Animal Experiences",
+            "it": "Equitazione pony e incontri con gli animali"
+          },
+          "description": {
+            "de": "Unvergessliche Begegnungen mit Pferden, Murmeltieren und anderen Tieren – ein besonderes Highlight für kleine und große Naturliebhaber.",
+            "en": "Unforgettable encounters with horses, marmots and other animals – a special highlight for young and old nature lovers.",
+            "it": "Incontri indimenticabili con cavalli, marmotte e altri animali – un punto saliante speciale per gli amanti della natura di tutte le età."
+          },
+          "image": "https://www.kinderhotel-waldhof.at/tiere/ponyreiten/2020/622/image-thumb__622__ce-imageslider-square/andreschoenherr_DSC7619.jpg"
+        },
+        {
+          "icon": "sun",
+          "title": {
+            "de": "Sommer: Wandern, Biken & mehr",
+            "en": "Summer: Hiking, Biking & More",
+            "it": "Estate: escursioni, bici e molto altro"
+          },
+          "description": {
+            "de": "Im Sommer verwandelt sich das Waldhof in ein grünes Abenteuerland – mit Wandern, Mountainbiken, Ausflügen und dem großen Outdoor-Aktivprogramm.",
+            "en": "In summer, the Waldhof transforms into a green adventure land – with hiking, mountain biking, excursions and the extensive outdoor activity programme.",
+            "it": "In estate il Waldhof si trasforma in una terra avventurosa e verde – con escursioni, mountain bike, gite e l'ampio programma di attività all'aperto."
+          },
+          "image": "https://www.kinderhotel-waldhof.at/winter/familie-stimmung/625/image-thumb__625__ce-imageslider-landscape/andreschoenherr_DSC4697.jpg"
         }
       ]
     },
     "gallery": {
-      "badge": {
-        "de": "Eindrücke",
-        "en": "Impressions",
-        "it": "Impressioni"
+      "headline": {
+        "de": "Eindrücke aus dem Kinderhotel Waldhof",
+        "en": "Impressions from the Kinderhotel Waldhof",
+        "it": "Impressioni dal Kinderhotel Waldhof"
       },
-      "title": {
-        "de": "Entdecken Sie unser Hotel",
-        "en": "Discover Our Hotel",
-        "it": "Scoprite il Nostro Hotel"
-      },
-      "description": {
-        "de": "Werfen Sie einen Blick auf unsere Zimmer, den Wellnessbereich, das Restaurant und die atemberaubende Umgebung in den Dolomiten.",
-        "en": "Take a look at our rooms, wellness area, restaurant and the stunning surroundings in the Dolomites.",
-        "it": "Date un'occhiata alle nostre camere, all'area wellness, al ristorante e allo splendido paesaggio delle Dolomiti."
-      },
-      "viewAll": {
-        "de": "Alle Fotos ansehen",
-        "en": "View All Photos",
-        "it": "Guarda tutte le foto"
-      },
-      "tabs": {
-        "all": {
-          "de": "Alle",
-          "en": "All",
-          "it": "Tutte"
-        },
-        "apartments-suites": {
-          "de": "Apartments & Suites",
-          "en": "Apartments & Suites",
-          "it": "Appartamenti & Suite"
-        },
-        "wellness": {
-          "de": "Wellness",
-          "en": "Wellness",
-          "it": "Wellness"
-        },
-        "cuisine": {
-          "de": "Frühstück & Genuss",
-          "en": "Breakfast & Enjoyment",
-          "it": "Colazione & Piacere"
-        },
-        "experiences": {
-          "de": "Erlebnisse",
-          "en": "Experiences",
-          "it": "Esperienze"
-        }
-      },
-      "categories": {
-        "apartments-suites": "apartments-suites",
-        "wellness": "wellness",
-        "cuisine": "cuisine",
-        "experiences": "experiences"
-      },
-      "highlightImages": {
-        "desktop": [
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg"
-        ],
-        "mobile": [
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg"
-        ]
-      },
-      "popup": {
-        "title": {
-          "de": "Galerie",
-          "en": "Gallery",
-          "it": "Galleria"
-        },
-        "closeSrLabel": {
-          "de": "Galerie schließen",
-          "en": "Close gallery",
-          "it": "Chiudi galleria"
-        }
+      "subheadline": {
+        "de": "Bilder sagen mehr als tausend Worte – entdecken Sie Ihren nächsten Lieblingsort.",
+        "en": "Pictures say more than a thousand words – discover your next favourite place.",
+        "it": "Le immagini dicono più di mille parole – scoprite il vostro prossimo posto preferito."
       },
       "images": [
         {
-          "src": "/placeholder.svg",
+          "url": "https://www.kinderhotel-waldhof.at/hotel-aussen/winter/2024/1100/image-thumb__1100__ce-intro-mobile/andreschoenherr_PANO0001-Pano.jpg",
           "alt": {
-            "de": "Hotel Außenansicht",
-            "en": "Hotel exterior",
-            "it": "Esterno dell'hotel"
+            "de": "Kinderhotel Waldhof im Winter – Panoramaaussicht",
+            "en": "Kinderhotel Waldhof in winter – panoramic view",
+            "it": "Kinderhotel Waldhof in inverno – vista panoramica"
           },
-          "category": "other"
+          "category": {
+            "de": "Hotel",
+            "en": "Hotel",
+            "it": "Hotel"
+          }
         },
         {
-          "src": "/placeholder.svg",
+          "url": "https://www.kinderhotel-waldhof.at/winter/skiwiese-skikurse/668/image-thumb__668__ce-hva-template-1/andreschoenherr_DSC1370.jpg",
           "alt": {
-            "de": "Zimmer 1",
-            "en": "Room 1",
-            "it": "Camera 1"
+            "de": "Skiwiese & Skikurse direkt am Hotel",
+            "en": "Ski slope & ski courses directly at the hotel",
+            "it": "Pista da sci e corsi sci direttamente all'hotel"
           },
-          "category": "apartments-suites"
+          "category": {
+            "de": "Winter",
+            "en": "Winter",
+            "it": "Inverno"
+          }
         },
         {
-          "src": "/placeholder.svg",
+          "url": "https://www.kinderhotel-waldhof.at/kinder/bergwerk_softplay/216/image-thumb__216__ce-hva-template-3/andreschoenherr_DSC2599.jpg",
           "alt": {
-            "de": "Zimmer 2",
-            "en": "Room 2",
-            "it": "Camera 2"
+            "de": "Bergwerk Softplay – Indoor Spieleparadies",
+            "en": "Mine-themed soft play – indoor play paradise",
+            "it": "Softplay a tema miniera – paradiso giochi al coperto"
           },
-          "category": "apartments-suites"
+          "category": {
+            "de": "Kinder",
+            "en": "Kids",
+            "it": "Bambini"
+          }
         },
         {
-          "src": "/placeholder.svg",
+          "url": "https://www.kinderhotel-waldhof.at/baden-wellness/trioslide-rutsche/1078/image-thumb__1078__ce-hva-template-2/andreschoenherr__NZ92388_higher.jpg",
           "alt": {
-            "de": "Wellness 1",
-            "en": "Wellness 1",
-            "it": "Wellness 1"
+            "de": "Trioslide Wasserrutsche – Badespaß pur",
+            "en": "Trioslide water slide – pure bathing fun",
+            "it": "Scivolo d'acqua trioslide – puro divertimento balneare"
           },
-          "category": "wellness"
+          "category": {
+            "de": "Baden & Wellness",
+            "en": "Bathing & Wellness",
+            "it": "Bagni e benessere"
+          }
         },
         {
-          "src": "/placeholder.svg",
+          "url": "https://www.kinderhotel-waldhof.at/baden-wellness/infinitypool/2024/87/image-thumb__87__ce-heroteaser-1-layout-2/andreschoenherr_DJI_20240308161013_0143_D.jpg",
           "alt": {
-            "de": "Wellness 2",
-            "en": "Wellness 2",
-            "it": "Wellness 2"
+            "de": "Infinity Pool mit Alpenpanorama",
+            "en": "Infinity pool with Alpine panorama",
+            "it": "Infinity pool con panorama alpino"
           },
-          "category": "wellness"
+          "category": {
+            "de": "Baden & Wellness",
+            "en": "Bathing & Wellness",
+            "it": "Bagni e benessere"
+          }
         },
         {
-          "src": "/placeholder.svg",
+          "url": "https://www.kinderhotel-waldhof.at/kulinarik/weinzeit/2025/1251/image-thumb__1251__ce-hva-template-4/andreschoenherr__NZ91844.jpg",
           "alt": {
-            "de": "Restaurant 1",
-            "en": "Restaurant 1",
-            "it": "Ristorante 1"
+            "de": "WeinZeit Bar – 24/7 Genuss",
+            "en": "WeinZeit Bar – 24/7 enjoyment",
+            "it": "Bar WeinZeit – piacere 24/7"
           },
-          "category": "cuisine"
+          "category": {
+            "de": "Kulinarik",
+            "en": "Cuisine",
+            "it": "Cucina"
+          }
         },
         {
-          "src": "/placeholder.svg",
+          "url": "https://www.kinderhotel-waldhof.at/kinder/kinderbetreuung/2019-2021/257/image-thumb__257__ce-hva-template-6/andreschoenherr_DSC8179.jpg",
           "alt": {
-            "de": "Restaurant 2",
-            "en": "Restaurant 2",
-            "it": "Ristorante 2"
+            "de": "Professionelle Kinderbetreuung im Waldhof",
+            "en": "Professional childcare at the Waldhof",
+            "it": "Assistenza professionale per bambini al Waldhof"
           },
-          "category": "cuisine"
+          "category": {
+            "de": "Kinder",
+            "en": "Kids",
+            "it": "Bambini"
+          }
         },
         {
-          "src": "/placeholder.svg",
+          "url": "https://www.kinderhotel-waldhof.at/winter/familie-stimmung/625/image-thumb__625__ce-imageslider-landscape/andreschoenherr_DSC4697.jpg",
           "alt": {
-            "de": "Erlebnisse 1",
-            "en": "Experiences 1",
-            "it": "Esperienze 1"
+            "de": "Familienglück im Winterurlaub",
+            "en": "Family happiness on a winter holiday",
+            "it": "Felicità di famiglia in vacanza invernale"
           },
-          "category": "experiences"
+          "category": {
+            "de": "Familie",
+            "en": "Family",
+            "it": "Famiglia"
+          }
         },
         {
-          "src": "/placeholder.svg",
+          "url": "https://www.kinderhotel-waldhof.at/tiere/ponyreiten/2020/622/image-thumb__622__ce-imageslider-square/andreschoenherr_DSC7619.jpg",
           "alt": {
-            "de": "Erlebnisse 2",
-            "en": "Experiences 2",
-            "it": "Esperienze 2"
+            "de": "Ponyreiten – tierisches Vergnügen für Kinder",
+            "en": "Pony riding – animal fun for children",
+            "it": "Equitazione pony – divertimento animale per bambini"
           },
-          "category": "experiences"
+          "category": {
+            "de": "Tiere",
+            "en": "Animals",
+            "it": "Animali"
+          }
+        },
+        {
+          "url": "https://www.kinderhotel-waldhof.at/tiere/murmeltiere-co/621/image-thumb__621__ce-imageslider-square/andreschoenherr_DSC6446.jpg",
+          "alt": {
+            "de": "Murmeltiere & Tiere am Waldhof",
+            "en": "Marmots & animals at the Waldhof",
+            "it": "Marmotte e animali al Waldhof"
+          },
+          "category": {
+            "de": "Tiere",
+            "en": "Animals",
+            "it": "Animali"
+          }
+        },
+        {
+          "url": "https://www.kinderhotel-waldhof.at/kinder/kreativwerkstatt/271/image-thumb__271__ce-imageslider-landscape/andreschoenherr_DSC3545.jpg",
+          "alt": {
+            "de": "Kreativwerkstatt für Kinder",
+            "en": "Creative workshop for children",
+            "it": "Laboratorio creativo per bambini"
+          },
+          "category": {
+            "de": "Kinder",
+            "en": "Kids",
+            "it": "Bambini"
+          }
+        },
+        {
+          "url": "https://www.kinderhotel-waldhof.at/kulinarik/speisebilder/2025/1205/image-thumb__1205__ce-heroteaser-2-layout-2/andreschoenherr__NZ94177.jpg",
+          "alt": {
+            "de": "Kulinarische Köstlichkeiten inklusive",
+            "en": "Culinary delights included",
+            "it": "Delizie culinarie incluse"
+          },
+          "category": {
+            "de": "Kulinarik",
+            "en": "Cuisine",
+            "it": "Cucina"
+          }
+        }
+      ]
+    },
+    "testimonials": {
+      "headline": {
+        "de": "Was unsere Gäste sagen",
+        "en": "What Our Guests Say",
+        "it": "Cosa dicono i nostri ospiti"
+      },
+      "subheadline": {
+        "de": "Echte Erfahrungen von Familien, die den Waldhof geliebt haben",
+        "en": "Real experiences from families who loved the Waldhof",
+        "it": "Esperienze reali di famiglie che hanno amato il Waldhof"
+      },
+      "items": [
+        {
+          "name": "Familie Müller",
+          "origin": {
+            "de": "München, Deutschland",
+            "en": "Munich, Germany",
+            "it": "Monaco, Germania"
+          },
+          "rating": 5,
+          "text": {
+            "de": "Das Kinderhotel Waldhof ist ein absoluter Traum für Familien! Unsere Kinder wollten gar nicht mehr nach Hause. Die Betreuung war herzlich und professionell, das Essen hervorragend und die Skiwiese direkt vor dem Hotel ist einfach unschlagbar.",
+            "en": "The Kinderhotel Waldhof is an absolute dream for families! Our children didn't want to go home at all. The care was warm and professional, the food excellent and the ski slope right in front of the hotel is simply unbeatable.",
+            "it": "Il Kinderhotel Waldhof è un sogno assoluto per le famiglie! I nostri figli non volevano tornare a casa. L'assistenza era calorosa e professionale, il cibo eccellente e la pista da sci direttamente davanti all'hotel è semplicemente imbattibile."
+          },
+          "date": "2024-02-15",
+          "image": ""
+        },
+        {
+          "name": "Familie Schneider",
+          "origin": {
+            "de": "Wien, Österreich",
+            "en": "Vienna, Austria",
+            "it": "Vienna, Austria"
+          },
+          "rating": 5,
+          "text": {
+            "de": "Wir waren schon zum dritten Mal im Waldhof und kommen immer wieder gerne! Das All-Inclusive-Konzept ist perfekt, die WeinZeit-Bar für die Eltern ein Highlight und die Kinder lieben das TUFFI Spieleparadies. Absolut empfehlenswert!",
+            "en": "We've been to the Waldhof for the third time and always enjoy coming back! The all-inclusive concept is perfect, the WeinZeit bar for parents is a highlight and the kids love the TUFFI play paradise. Absolutely recommended!",
+            "it": "Siamo stati al Waldhof per la terza volta e ci piace sempre tornare! Il concetto all-inclusive è perfetto, il bar WeinZeit per i genitori è un punto saliante e i bambini adorano il paradiso giochi TUFFI. Assolutamente consigliato!"
+          },
+          "date": "2024-03-08",
+          "image": ""
+        },
+        {
+          "name": "Familie Wagner",
+          "origin": {
+            "de": "Stuttgart, Deutschland",
+            "en": "Stuttgart, Germany",
+            "it": "Stoccarda, Germania"
+          },
+          "rating": 5,
+          "text": {
+            "de": "Endlich ein Urlaub, den wir als Eltern wirklich genießen konnten! Die 80-Stunden-Kinderbetreuung hat uns echte Auszeit ermöglicht, während unsere Kleinen bestens versorgt waren. Das Ponyreiten und der Almexpress waren die Highlights für unsere Tochter.",
+            "en": "Finally a holiday we as parents could truly enjoy! The 80-hour childcare gave us a real break, while our little ones were well taken care of. The pony riding and the Almexpress were the highlights for our daughter.",
+            "it": "Finalmente una vacanza che noi genitori abbiamo potuto davvero godere! I 80 ore di assistenza bambini ci hanno permesso una vera pausa, mentre i nostri piccoli erano ben accuditi. L'equitazione pony e l'Almexpress sono stati i momenti salienti per nostra figlia."
+          },
+          "date": "2024-01-20",
+          "image": ""
+        },
+        {
+          "name": "Familie Bauer",
+          "origin": {
+            "de": "Zürich, Schweiz",
+            "en": "Zurich, Switzerland",
+            "it": "Zurigo, Svizzera"
+          },
+          "rating": 5,
+          "text": {
+            "de": "Die Bade- und Wellnesswelt ist grandios! Der Infinity Pool mit Alpenpanorama ist einfach traumhaft. Die Kinder liebten die Rutsche und den Hallenbadbereich. Das Essen war täglich ein Fest – alles inklusive macht den Urlaub wirklich sorgenfrei.",
+            "en": "The bathing and wellness world is grandiose! The infinity pool with Alpine panorama is simply dreamy. The children loved the slide and the indoor pool area. The food was a feast every day – all inclusive makes the holiday truly carefree.",
+            "it": "Il mondo dei bagni e del benessere è grandioso! L'infinity pool con panorama alpino è semplicemente meraviglioso. I bambini hanno adorato lo scivolo e la zona piscina coperta. Il cibo era un banchetto ogni giorno – il tutto incluso rende la vacanza davvero spensierata."
+          },
+          "date": "2024-02-28",
+          "image": ""
+        }
+      ]
+    },
+    "faqs": {
+      "headline": {
+        "de": "Häufig gestellte Fragen",
+        "en": "Frequently Asked Questions",
+        "it": "Domande frequenti"
+      },
+      "subheadline": {
+        "de": "Alles, was Sie vor Ihrer Buchung wissen möchten",
+        "en": "Everything you'd like to know before booking",
+        "it": "Tutto quello che vorreste sapere prima di prenotare"
+      },
+      "items": [
+        {
+          "question": {
+            "de": "Was ist im Preis inklusive?",
+            "en": "What is included in the price?",
+            "it": "Cosa è incluso nel prezzo?"
+          },
+          "answer": {
+            "de": "Im Kinderhotel Waldhof ist ein umfangreiches All-Inclusive-Paket enthalten: alle Mahlzeiten, Getränke (inkl. WeinZeit-Bar 24/7), Kinderbetreuung (80h/Woche), Nutzung aller Freizeitanlagen, Hallenbad, Outdoor-Pools, Skiwiese, TUFFI Spieleparadies, Almexpress und vieles mehr.",
+            "en": "The Kinderhotel Waldhof includes an extensive all-inclusive package: all meals, drinks (incl. WeinZeit bar 24/7), childcare (80h/week), use of all leisure facilities, indoor pool, outdoor pools, ski slope, TUFFI play paradise, Almexpress and much more.",
+            "it": "Il Kinderhotel Waldhof include un ampio pacchetto all-inclusive: tutti i pasti, bevande (incl. bar WeinZeit 24/7), assistenza bambini (80h/settimana), uso di tutte le strutture ricreative, piscina coperta, piscine all'aperto, pista da sci, paradiso giochi TUFFI, Almexpress e molto altro."
+          }
+        },
+        {
+          "question": {
+            "de": "Gibt es Kinderbetreuung und für welche Altersgruppen?",
+            "en": "Is there childcare and for which age groups?",
+            "it": "C'è assistenza per bambini e per quali fasce d'età?"
+          },
+          "answer": {
+            "de": "Ja! Im Waldhof bieten wir 80 Stunden Kinder- und Babybetreuung pro Woche an – herzlich und kompetent. Das Angebot umfasst Babys, Kids und Teens mit altersgerechten Programmen und Aktivitäten.",
+            "en": "Yes! At the Waldhof we offer 80 hours of childcare per week – warm and professional. The programme covers babies, kids and teens with age-appropriate programmes and activities.",
+            "it": "Sì! Al Waldhof offriamo 80 ore di assistenza per bambini e neonati a settimana – calorosa e professionale. Il programma comprende neonati, bambini e teenager con programmi e attività adeguati all'età."
+          }
+        },
+        {
+          "question": {
+            "de": "Gibt es ein Skigebiet in der Nähe?",
+            "en": "Is there a ski area nearby?",
+            "it": "C'è un comprensorio sciistico nelle vicinanze?"
+          },
+          "answer": {
+            "de": "Ja! Das Hotel verfügt über eine eigene Skiwiese mit Skilift direkt am Haus. Zusätzlich ist das große Skigebiet Großarltal / Ski Amadé bequem erreichbar. Wir bieten auch einen Premium Skiservice mit Skischule, Skishop und Verleih an.",
+            "en": "Yes! The hotel has its own ski slope with ski lift directly on site. Additionally, the large Großarltal / Ski Amadé ski area is easily accessible. We also offer a premium ski service with ski school, ski shop and rental.",
+            "it": "Sì! L'hotel dispone di una propria pista da sci con sciovia direttamente in loco. Inoltre, la grande area sciistica Großarltal / Ski Amadé è facilmente raggiungibile. Offriamo anche un premium ski service con scuola sci, negozio sci e noleggio."
+          }
+        },
+        {
+          "question": {
+            "de": "Sind Haustiere erlaubt?",
+            "en": "Are pets allowed?",
+            "it": "Sono ammessi animali domestici?"
+          },
+          "answer": {
+            "de": "Aus Rücksicht auf alle Familien und Kinder sind im Kinderhotel Waldhof leider keine Haustiere erlaubt. Wir bitten um Ihr Verständnis.",
+            "en": "Out of consideration for all families and children, pets are unfortunately not allowed at the Kinderhotel Waldhof. We thank you for your understanding.",
+            "it": "Per rispetto di tutte le famiglie e i bambini, gli animali domestici purtroppo non sono ammessi al Kinderhotel Waldhof. Vi ringraziamo per la comprensione."
+          }
+        },
+        {
+          "question": {
+            "de": "Wann ist die Anreise und Abreise?",
+            "en": "When is check-in and check-out?",
+            "it": "Quando è il check-in e il check-out?"
+          },
+          "answer": {
+            "de": "Das Check-in ist ab 15:00 Uhr möglich, der Check-out bis 11:00 Uhr. Bei Bedarf bieten wir je nach Verfügbarkeit auch Early Check-in oder Late Check-out an – bitte kontaktieren Sie uns direkt.",
+            "en": "Check-in is from 15:00, check-out until 11:00. If required, we also offer early check-in or late check-out depending on availability – please contact us directly.",
+            "it": "Il check-in è possibile dalle 15:00, il check-out entro le 11:00. Se necessario, offriamo anche early check-in o late check-out in base alla disponibilità – contattateci direttamente."
+          }
+        },
+        {
+          "question": {
+            "de": "Welche Sommer-Aktivitäten gibt es?",
+            "en": "What summer activities are available?",
+            "it": "Quali attività estive sono disponibili?"
+          },
+          "answer": {
+            "de": "Im Sommer bietet der Waldhof ein umfangreiches Programm: Wandern, Mountainbiken, Ponyreiten, Ausflüge in die Umgebung, 4.000 m² Gaudialm Outdoor-Gelände, Baden im Freibad und Badeteich, sowie das ganzjährig geöffnete TUFFI Indoor Spieleparadies und die Wasserwelt.",
+            "en": "In summer, the Waldhof offers an extensive programme: hiking, mountain biking, pony riding, excursions in the area, 4,000 m² of outdoor fun grounds, outdoor swimming and bathing lake, as well as the year-round TUFFI indoor play paradise and water world.",
+            "it": "In estate il Waldhof offre un programma completo: escursioni, mountain bike, equitazione pony, gite nei dintorni, 4.000 m² di area divertimento all'aperto, bagno all'aperto e laghetto balneare, oltre al paradiso giochi al coperto TUFFI aperto tutto l'anno e al mondo acquatico."
+          }
+        }
+      ]
+    },
+    "offers": {
+      "headline": {
+        "de": "Aktuelle Angebote & Preisvorteile",
+        "en": "Current Offers & Price Advantages",
+        "it": "Offerte attuali e vantaggi di prezzo"
+      },
+      "subheadline": {
+        "de": "Sichern Sie sich jetzt Ihren Traumurlaub zum besten Preis",
+        "en": "Book your dream holiday now at the best price",
+        "it": "Prenota ora la tua vacanza da sogno al miglior prezzo"
+      },
+      "items": [
+        {
+          "title": {
+            "de": "Winter All Inclusive Familienurlaub",
+            "en": "Winter All Inclusive Family Holiday",
+            "it": "Vacanza invernale All Inclusive in famiglia"
+          },
+          "description": {
+            "de": "Genießen Sie den perfekten Winterurlaub mit der ganzen Familie – inklusive Skiwiese, Premium Skiservice, Kinderbetreuung, Vollpension und der kompletten Bade- & Wellnesswelt. Alles inklusive für einen sorgenfreien Familienurlaub.",
+            "en": "Enjoy the perfect winter holiday with the whole family – including ski slope, premium ski service, childcare, full board and the complete bathing & wellness world. All inclusive for a carefree family holiday.",
+            "it": "Godetevi la perfetta vacanza invernale con tutta la famiglia – inclusi pista da sci, premium ski service, assistenza bambini, pensione completa e il completo mondo dei bagni e del benessere. Tutto incluso per una vacanza familiare spensierata."
+          },
+          "image": "https://www.kinderhotel-waldhof.at/winter/skiwiese-skikurse/668/image-thumb__668__ce-hva-template-1/andreschoenherr_DSC1370.jpg",
+          "badge": {
+            "de": "Beliebtestes Angebot",
+            "en": "Most popular offer",
+            "it": "Offerta più popolare"
+          },
+          "cta": {
+            "label": {
+              "de": "Jetzt anfragen",
+              "en": "Enquire now",
+              "it": "Richiedi ora"
+            },
+            "href": "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/"
+          },
+          "price": {
+            "from": {
+              "de": "ab Preis auf Anfrage",
+              "en": "from price on request",
+              "it": "da prezzo su richiesta"
+            }
+          }
+        },
+        {
+          "title": {
+            "de": "Sommer Familienabenteuer",
+            "en": "Summer Family Adventure",
+            "it": "Avventura estiva in famiglia"
+          },
+          "description": {
+            "de": "Wandern, Ponyreiten, Radfahren, Plantschen und entspannen – das Sommer-Package im Waldhof bietet der ganzen Familie grenzenlose Erlebnisse inmitten der herrlichen Salzburger Bergwelt. Inklusive Vollpension und Aktivprogramm.",
+            "en": "Hiking, pony riding, cycling, splashing and relaxing – the summer package at the Waldhof offers the whole family boundless experiences in the midst of the magnificent Salzburg mountain world. Including full board and activity programme.",
+            "it": "Escursioni, equitazione pony, ciclismo, sguazzare e rilassarsi – il pacchetto estivo al Waldhof offre a tutta la famiglia esperienze illimitate nel mezzo del magnifico paesaggio montano di Salisburgo. Inclusa pensione completa e programma di attività."
+          },
+          "image": "https://www.kinderhotel-waldhof.at/tiere/ponyreiten/2020/622/image-thumb__622__ce-imageslider-square/andreschoenherr_DSC7619.jpg",
+          "badge": {
+            "de": "Sommerhighlight",
+            "en": "Summer highlight",
+            "it": "Highlight estivo"
+          },
+          "cta": {
+            "label": {
+              "de": "Jetzt anfragen",
+              "en": "Enquire now",
+              "it": "Richiedi ora"
+            },
+            "href": "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/"
+          },
+          "price": {
+            "from": {
+              "de": "ab Preis auf Anfrage",
+              "en": "from price on request",
+              "it": "da prezzo su richiesta"
+            }
+          }
+        },
+        {
+          "title": {
+            "de": "Weihnachten & Silvester im Waldhof",
+            "en": "Christmas & New Year at the Waldhof",
+            "it": "Natale e Capodanno al Waldhof"
+          },
+          "description": {
+            "de": "Feiern Sie die schönste Zeit des Jahres mit Ihrer Familie in magischer Atmosphäre! Weihnachtliche Dekorationen, Krippenworkshops, festliche Menüs und der erste Schnee machen die Winterferien unvergesslich.",
+            "en": "Celebrate the most wonderful time of the year with your family in a magical atmosphere! Christmas decorations, nativity workshops, festive menus and the first snow make the winter holidays unforgettable.",
+            "it": "Festeggiate il periodo più bello dell'anno con la vostra famiglia in un'atmosfera magica! Decorazioni natalizie, laboratori del presepe, menu festivi e la prima neve rendono le vacanze invernali indimenticabili."
+          },
+          "image": "https://www.kinderhotel-waldhof.at/winter/weihnachten/664/image-thumb__664__ce-heroteaser-1-layout-2/Krippenwerkstatt-bei-Nacht.jpg",
+          "badge": {
+            "de": "Festliche Highlights",
+            "en": "Festive highlights",
+            "it": "Highlights festivi"
+          },
+          "cta": {
+            "label": {
+              "de": "Jetzt anfragen",
+              "en": "Enquire now",
+              "it": "Richiedi ora"
+            },
+            "href": "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/"
+          },
+          "price": {
+            "from": {
+              "de": "ab Preis auf Anfrage",
+              "en": "from price on request",
+              "it": "da prezzo su richiesta"
+            }
+          }
+        }
+      ]
+    },
+    "rooms": {
+      "headline": {
+        "de": "Unsere Zimmer & Suiten",
+        "en": "Our Rooms & Suites",
+        "it": "Le nostre camere e suite"
+      },
+      "subheadline": {
+        "de": "Gemütliche Rückzugsorte für die ganze Familie",
+        "en": "Cosy retreats for the whole family",
+        "it": "Accoglienti rifugi per tutta la famiglia"
+      },
+      "items": [
+        {
+          "name": {
+            "de": "Familienzimmer",
+            "en": "Family Room",
+            "it": "Camera familiare"
+          },
+          "description": {
+            "de": "Geräumige und komfortabel eingerichtete Familienzimmer mit allem, was Ihre Familie für einen erholsamen Aufenthalt braucht. Ideal für kleine Familien.",
+            "en": "Spacious and comfortably furnished family rooms with everything your family needs for a relaxing stay. Ideal for small families.",
+            "it": "Camere familiari spaziose e confortevolmente arredate con tutto ciò di cui la vostra famiglia ha bisogno per un soggiorno rilassante. Ideale per famiglie piccole."
+          },
+          "size": "30-40",
+          "capacity": 4,
+          "image": "https://www.kinderhotel-waldhof.at/winter/familie-stimmung/625/image-thumb__625__ce-imageslider-landscape/andreschoenherr_DSC4697.jpg",
+          "features": [
+            {
+              "de": "Bergblick",
+              "en": "Mountain view",
+              "it": "Vista montagna"
+            },
+            {
+              "de": "Badezimmer",
+              "en": "Bathroom",
+              "it": "Bagno"
+            },
+            {
+              "de": "Balkon",
+              "en": "Balcony",
+              "it": "Balcone"
+            }
+          ],
+          "priceFrom": 0,
+          "currency": "EUR",
+          "cta": {
+            "label": {
+              "de": "Anfragen",
+              "en": "Enquire",
+              "it": "Richiedi"
+            },
+            "href": "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/"
+          }
+        },
+        {
+          "name": {
+            "de": "Familiensuite",
+            "en": "Family Suite",
+            "it": "Suite familiare"
+          },
+          "description": {
+            "de": "Großzügige Suiten mit Wohnbereich, perfekt für Familien, die extra Platz und Komfort genießen möchten. Mit herrlichem Bergpanorama und hochwertiger Ausstattung.",
+            "en": "Generous suites with living area, perfect for families who want to enjoy extra space and comfort. With magnificent mountain panorama and high-quality furnishings.",
+            "it": "Suite generose con area soggiorno, perfette per le famiglie che vogliono godere di spazio extra e comfort. Con magnifico panorama montano e arredi di alta qualità."
+          },
+          "size": "50-70",
+          "capacity": 5,
+          "image": "https://www.kinderhotel-waldhof.at/kinder/chillout-lounge/2024/1005/image-thumb__1005__ce-imageslider-portrait/andreschoenherr__NZ99317.jpg",
+          "features": [
+            {
+              "de": "Wohnbereich",
+              "en": "Living area",
+              "it": "Area soggiorno"
+            },
+            {
+              "de": "Panoramablick",
+              "en": "Panoramic view",
+              "it": "Vista panoramica"
+            },
+            {
+              "de": "Badewanne",
+              "en": "Bathtub",
+              "it": "Vasca da bagno"
+            },
+            {
+              "de": "Balkon",
+              "en": "Balcony",
+              "it": "Balcone"
+            }
+          ],
+          "priceFrom": 0,
+          "currency": "EUR",
+          "cta": {
+            "label": {
+              "de": "Anfragen",
+              "en": "Enquire",
+              "it": "Richiedi"
+            },
+            "href": "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/"
+          }
+        },
+        {
+          "name": {
+            "de": "Premium Waldhof Suite",
+            "en": "Premium Waldhof Suite",
+            "it": "Suite Premium Waldhof"
+          },
+          "description": {
+            "de": "Unsere exklusivsten Suiten vereinen höchsten Komfort mit dem besonderen Waldhof-Charme. Großzügige Räumlichkeiten, Premium-Ausstattung und atemberaubendes Alpenpanorama.",
+            "en": "Our most exclusive suites combine the highest comfort with the special Waldhof charm. Generous spaces, premium furnishings and breathtaking Alpine panorama.",
+            "it": "Le nostre suite più esclusive combinano il massimo comfort con lo speciale charme del Waldhof. Spazi generosi, arredi premium e mozzafiato panorama alpino."
+          },
+          "size": "70-100",
+          "capacity": 6,
+          "image": "https://www.kinderhotel-waldhof.at/hotel-aussen/winter/2024/1100/image-thumb__1100__ce-intro-mobile/andreschoenherr_PANO0001-Pano.jpg",
+          "features": [
+            {
+              "de": "Premium Ausstattung",
+              "en": "Premium furnishings",
+              "it": "Arredi premium"
+            },
+            {
+              "de": "Alpenpanorama",
+              "en": "Alpine panorama",
+              "it": "Panorama alpino"
+            },
+            {
+              "de": "Separates Kinderzimmer",
+              "en": "Separate children's room",
+              "it": "Camera dei bambini separata"
+            },
+            {
+              "de": "Whirlpool",
+              "en": "Whirlpool",
+              "it": "Idromassaggio"
+            }
+          ],
+          "priceFrom": 0,
+          "currency": "EUR",
+          "badge": {
+            "de": "Top-Kategorie",
+            "en": "Top category",
+            "it": "Top categoria"
+          },
+          "cta": {
+            "label": {
+              "de": "Anfragen",
+              "en": "Enquire",
+              "it": "Richiedi"
+            },
+            "href": "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/"
+          }
         }
       ]
     },
     "enquiry": {
-      "badge": {
-        "de": "Ihre Anfrage",
-        "en": "Your Enquiry",
-        "it": "La Vostra Richiesta"
+      "headline": {
+        "de": "Unverbindlich anfragen",
+        "en": "Enquire Without Obligation",
+        "it": "Richiesta senza impegno"
       },
-      "title": {
-        "de": "Ihr perfekter Urlaub beginnt hier...",
-        "en": "Your Perfect Holiday Starts Here...",
-        "it": "La vostra vacanza perfetta inizia qui..."
+      "subheadline": {
+        "de": "Wir melden uns schnellstmöglich bei Ihnen – Ihr Traumurlaub wartet!",
+        "en": "We'll get back to you as soon as possible – your dream holiday awaits!",
+        "it": "Vi risponderemo il prima possibile – la vostra vacanza da sogno vi aspetta!"
       },
-      "description": {
-        "de": "Wir freuen uns auf Ihre Anfrage! Unser Team berät Sie gerne persönlich und erstellt Ihnen ein individuelles Angebot für Ihren Traumurlaub in Südtirol.",
-        "en": "We look forward to your enquiry! Our team will be happy to advise you personally and create a customised offer for your dream holiday in South Tyrol.",
-        "it": "Non vediamo l'ora di ricevere la vostra richiesta! Il nostro team sarà lieto di consigliarvi personalmente e creare un'offerta personalizzata per la vostra vacanza da sogno in Alto Adige."
-      },
-      "backgroundImage": "/placeholder.svg",
+      "image": "https://www.kinderhotel-waldhof.at/winter/familie-stimmung/625/image-thumb__625__ce-imageslider-landscape/andreschoenherr_DSC4697.jpg",
       "form": {
-        "roomType": {
-          "label": {
-            "de": "Zimmertyp",
-            "en": "Room Type",
-            "it": "Tipo di camera"
+        "fields": [
+          {
+            "name": "firstName",
+            "type": "text",
+            "label": {
+              "de": "Vorname",
+              "en": "First name",
+              "it": "Nome"
+            },
+            "required": true
           },
-          "roomOnly": {
-            "de": "Nur Zimmer",
-            "en": "Room Only",
-            "it": "Solo camera"
+          {
+            "name": "lastName",
+            "type": "text",
+            "label": {
+              "de": "Nachname",
+              "en": "Last name",
+              "it": "Cognome"
+            },
+            "required": true
           },
-          "roomWithOffer": {
-            "de": "Zimmer mit Angebot",
-            "en": "Room with Offer",
-            "it": "Camera con offerta"
+          {
+            "name": "email",
+            "type": "email",
+            "label": {
+              "de": "E-Mail-Adresse",
+              "en": "Email address",
+              "it": "Indirizzo e-mail"
+            },
+            "required": true
+          },
+          {
+            "name": "phone",
+            "type": "tel",
+            "label": {
+              "de": "Telefonnummer",
+              "en": "Phone number",
+              "it": "Numero di telefono"
+            },
+            "required": false
+          },
+          {
+            "name": "arrivalDate",
+            "type": "date",
+            "label": {
+              "de": "Anreisedatum",
+              "en": "Arrival date",
+              "it": "Data di arrivo"
+            },
+            "required": true
+          },
+          {
+            "name": "departureDate",
+            "type": "date",
+            "label": {
+              "de": "Abreisedatum",
+              "en": "Departure date",
+              "it": "Data di partenza"
+            },
+            "required": true
+          },
+          {
+            "name": "adults",
+            "type": "number",
+            "label": {
+              "de": "Anzahl Erwachsene",
+              "en": "Number of adults",
+              "it": "Numero di adulti"
+            },
+            "required": true,
+            "min": 1,
+            "max": 10
+          },
+          {
+            "name": "children",
+            "type": "number",
+            "label": {
+              "de": "Anzahl Kinder",
+              "en": "Number of children",
+              "it": "Numero di bambini"
+            },
+            "required": false,
+            "min": 0,
+            "max": 8
+          },
+          {
+            "name": "childrenAges",
+            "type": "text",
+            "label": {
+              "de": "Alter der Kinder (z.B. 3, 6, 10)",
+              "en": "Ages of children (e.g. 3, 6, 10)",
+              "it": "Età dei bambini (es. 3, 6, 10)"
+            },
+            "required": false
+          },
+          {
+            "name": "roomType",
+            "type": "select",
+            "label": {
+              "de": "Gewünschte Zimmerkategorie",
+              "en": "Desired room category",
+              "it": "Categoria camera desiderata"
+            },
+            "required": false,
+            "options": [
+              {
+                "value": "family-room",
+                "label": {
+                  "de": "Familienzimmer",
+                  "en": "Family Room",
+                  "it": "Camera familiare"
+                }
+              },
+              {
+                "value": "family-suite",
+                "label": {
+                  "de": "Familiensuite",
+                  "en": "Family Suite",
+                  "it": "Suite familiare"
+                }
+              },
+              {
+                "value": "premium-suite",
+                "label": {
+                  "de": "Premium Waldhof Suite",
+                  "en": "Premium Waldhof Suite",
+                  "it": "Suite Premium Waldhof"
+                }
+              }
+            ]
+          },
+          {
+            "name": "message",
+            "type": "textarea",
+            "label": {
+              "de": "Nachricht / Besondere Wünsche",
+              "en": "Message / Special requests",
+              "it": "Messaggio / Richieste speciali"
+            },
+            "required": false,
+            "rows": 4
+          },
+          {
+            "name": "privacyConsent",
+            "type": "checkbox",
+            "label": {
+              "de": "Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu.",
+              "en": "I have read the privacy policy and consent to the processing of my data.",
+              "it": "Ho letto l'informativa sulla privacy e acconsento al trattamento dei miei dati."
+            },
+            "required": true
           }
+        ],
+        "submitButton": {
+          "de": "Jetzt unverbindlich anfragen",
+          "en": "Enquire now – no obligation",
+          "it": "Richiedi ora senza impegno"
         },
-        "dates": {
-          "label": {
-            "de": "Ankunft und Abreise*",
-            "en": "Arrival and Departure*",
-            "it": "Arrivo e partenza*"
-          },
-          "alternative": {
-            "de": "Alternativer Termin",
-            "en": "Alternative Date",
-            "it": "Data alternativa"
-          }
+        "successMessage": {
+          "de": "Vielen Dank für Ihre Anfrage! Wir melden uns schnellstmöglich bei Ihnen.",
+          "en": "Thank you for your enquiry! We will get back to you as soon as possible.",
+          "it": "Grazie per la vostra richiesta! Vi risponderemo il prima possibile."
         },
-        "offer": {
-          "label": {
-            "de": "Angebot",
-            "en": "Offer",
-            "it": "Offerta"
-          },
-          "choose": {
-            "de": "Angebot auswählen",
-            "en": "Choose Offer",
-            "it": "Seleziona offerta"
-          }
-        },
-        "room": {
-          "label": {
-            "de": "Zimmer",
-            "en": "Room",
-            "it": "Camera"
-          },
-          "chooseWithGuests": {
-            "de": "Zimmer und Gästeanzahl",
-            "en": "Room and Number of Guests",
-            "it": "Camera e numero di ospiti"
-          }
-        },
-        "salutation": {
-          "label": {
-            "de": "Anrede",
-            "en": "Salutation",
-            "it": "Titolo"
-          },
-          "mr": {
-            "de": "Herr",
-            "en": "Mr",
-            "it": "Sig."
-          },
-          "mrs": {
-            "de": "Frau",
-            "en": "Mrs",
-            "it": "Sig.ra"
-          }
-        },
-        "firstName": {
-          "de": "Vorname*",
-          "en": "First Name*",
-          "it": "Nome*"
-        },
-        "lastName": {
-          "de": "Nachname*",
-          "en": "Last Name*",
-          "it": "Cognome*"
-        },
-        "phone": {
-          "de": "Telefon*",
-          "en": "Phone*",
-          "it": "Telefono*"
-        },
-        "email": {
-          "de": "E-Mail*",
-          "en": "Email*",
-          "it": "Email*"
-        },
-        "message": {
-          "de": "Nachricht",
-          "en": "Message",
-          "it": "Messaggio"
-        },
-        "newsletter": {
-          "de": "Ich möchte regelmäßig den Newsletter erhalten",
-          "en": "I would like to receive the newsletter regularly",
-          "it": "Desidero ricevere regolarmente la newsletter"
-        },
-        "privacyPolicy": {
-          "de": "*Ich akzeptiere die Datenschutzbestimmungen",
-          "en": "*I accept the privacy policy",
-          "it": "*Accetto l'informativa sulla privacy"
-        },
-        "responseTime": {
-          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot – wir freuen uns auf Sie!",
-          "en": "We will respond within 24 hours with your personalised offer – we look forward to welcoming you!",
-          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata – non vediamo l'ora di accogliervi!"
-        },
-        "submit": {
-          "de": "Jetzt Verfügbarkeit prüfen",
-          "en": "Check Availability Now",
-          "it": "Verifica disponibilità"
-        },
-        "submitting": {
-          "de": "Wird gesendet...",
-          "en": "Sending...",
-          "it": "Invio in corso..."
-        },
-        "openingNotice": {
-          "de": "",
-          "en": "",
-          "it": ""
+        "errorMessage": {
+          "de": "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.",
+          "en": "Unfortunately an error occurred. Please try again or contact us directly.",
+          "it": "Purtroppo si è verificato un errore. Riprova o contattaci direttamente."
         }
       }
-    },
-    "testimonials": {
-      "badge": {
-        "de": "Gästestimmen",
-        "en": "Guest Reviews",
-        "it": "Voci degli Ospiti"
-      },
-      "title": {
-        "de": "Was unsere Gäste sagen",
-        "en": "What Our Guests Say",
-        "it": "Cosa Dicono i Nostri Ospiti"
-      },
-      "description": {
-        "de": "Unsere Gäste schätzen die herzliche Atmosphäre, den erstklassigen Service und die atemberaubende Lage in den Dolomiten. Lesen Sie, was andere über ihren Aufenthalt bei uns berichten.",
-        "en": "Our guests appreciate the warm atmosphere, first-class service and stunning location in the Dolomites. Read what others have to say about their stay with us.",
-        "it": "I nostri ospiti apprezzano l'atmosfera calorosa, il servizio di prima classe e la posizione mozzafiato nelle Dolomiti. Leggete cosa dicono gli altri del loro soggiorno da noi."
-      },
-      "image": "/placeholder.svg"
-    },
-    "faqs": {
-      "badge": {
-        "de": "Gut zu wissen",
-        "en": "Good to Know",
-        "it": "Buono a Sapersi"
-      },
-      "title": {
-        "de": "Häufige Fragen",
-        "en": "Frequently Asked Questions",
-        "it": "Domande frequenti"
-      },
-      "description": {
-        "de": "Hier finden Sie Antworten auf die häufigsten Fragen zu Ihrem Aufenthalt. Bei weiteren Fragen steht Ihnen unser Team gerne zur Verfügung.",
-        "en": "Here you will find answers to the most common questions about your stay. If you have any further questions, our team will be happy to help.",
-        "it": "Qui troverete le risposte alle domande più frequenti sul vostro soggiorno. Per ulteriori domande, il nostro team sarà lieto di aiutarvi."
-      }
-    },
-    "offers": {
-      "badge": {
-        "de": "Angebote",
-        "en": "Offers",
-        "it": "Offerte"
-      },
-      "title": {
-        "de": "Unsere aktuellen Angebote",
-        "en": "Our Current Offers",
-        "it": "Le Nostre Offerte Attuali"
-      },
-      "description": {
-        "de": "Entdecken Sie unsere saisonalen Angebote für Ihren perfekten Urlaub in Südtirol – ob Wellness, Wandern, Skifahren oder kulinarische Erlebnisse.",
-        "en": "Discover our seasonal offers for your perfect holiday in South Tyrol – whether wellness, hiking, skiing or culinary experiences.",
-        "it": "Scoprite le nostre offerte stagionali per la vostra vacanza perfetta in Alto Adige – che sia wellness, escursioni, sci o esperienze culinarie."
-      }
-    },
-    "rooms": {
-      "badge": {
-        "de": "ZIMMER & SUITEN",
-        "en": "ROOMS & SUITES",
-        "it": "CAMERE & SUITE"
-      },
-      "title": {
-        "de": "Unsere Unterkünfte",
-        "en": "Our Accommodations",
-        "it": "I Nostri Alloggi"
-      },
-      "description": {
-        "de": "Komfortable Zimmer und Suiten mit Blick auf die Berge. Moderne Ausstattung und traditioneller Südtiroler Charme vereinen sich zu einem einzigartigen Wohnerlebnis.",
-        "en": "Comfortable rooms and suites with mountain views. Modern amenities and traditional South Tyrolean charm combine to create a unique living experience.",
-        "it": "Camere e suite confortevoli con vista sulle montagne. Comfort moderni e fascino tradizionale altoatesino si uniscono per un'esperienza abitativa unica."
-      },
-      "tabs": {
-        "all": {
-          "de": "Alle",
-          "en": "All",
-          "it": "Tutte"
-        },
-        "rooms": {
-          "de": "Zimmer",
-          "en": "Rooms",
-          "it": "Camere"
-        },
-        "suites": {
-          "de": "Suiten",
-          "en": "Suites",
-          "it": "Suite"
-        }
-      },
-      "logoImage": "/placeholder.svg"
     }
   }
 }

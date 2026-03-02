@@ -51,18 +51,18 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-    icon: [
+   icons: {
+    
+  icon: [
       {
-        url: "/icon.png",
+        url: "https://www.kinderhotel-waldhof.at/static/img/favicon.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon.png",
+        url: "https://www.kinderhotel-waldhof.at/static/img/favicon.png",
         media: "(prefers-color-scheme: dark)",
       },
-    ],
-  },
+    ]}
 };
 
 export default async function RootLayout({
@@ -99,10 +99,7 @@ export default async function RootLayout({
         )}
         <WipScreen>{children}</WipScreen>
         <Analytics />
-        {/* <ScriptsLoader /> */}
       </body>
     </html>
   );
 }
-
-// Trigger deployment

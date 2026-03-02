@@ -2,62 +2,62 @@
 // HOTEL_CONFIG - Core hotel identity & contact
 // ============================================
 export const HOTEL_CONFIG = {
-  name: "Hotel Name",
-  shortName: "Hotel",
-  type: "Hotel" as const,
+  name: "Kinderhotel Waldhof",
+  shortName: "Waldhof",
+  type: "Resort" as const,
 
   location: {
-    street: "Musterstraße 1",
-    postalCode: "IT-39000",
-    city: "Stadt",
-    region: "Südtirol",
-    country: "Italien",
+    street: "Dorfstraße 1",
+    postalCode: "A-5611",
+    city: "Großarl",
+    region: "Salzburg",
+    country: "Österreich",
     coordinates: {
-      lat: 46.5,
-      lng: 11.5,
+      lat: 47.2333,
+      lng: 13.2167,
     },
   },
 
   contact: {
-    email: "info@example.com",
+    email: "info@kinderhotel-waldhof.at",
     phone: {
-      main: { display: "+39 0000 000 000", href: "tel:+390000000000" },
+      main: { display: "+43 6414 200", href: "tel:+436414200" },
       whatsapp: {
         display: "",
         href: "",
       },
     },
     website: {
-      main: "https://www.example.com",
-      booking: "",
+      main: "https://www.kinderhotel-waldhof.at",
+      booking: "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/",
     },
   },
 
   social: {
-    facebook: "",
-    instagram: "",
+    facebook: "https://www.facebook.com/kinderhotelwaldhof",
+    instagram: "https://www.instagram.com/kinderhotel_waldhof",
     youtube: undefined,
   },
 
   legal: {
     taxId: "",
     imprint: {
-      de: "",
-      en: "",
+      de: "https://www.kinderhotel-waldhof.at/impressum/",
+      en: "https://www.kinderhotel-waldhof.at/en/imprint/",
       it: "",
     },
     privacy: {
-      de: "",
-      en: "",
+      de: "https://www.kinderhotel-waldhof.at/datenschutz/",
+      en: "https://www.kinderhotel-waldhof.at/en/privacy/",
       it: "",
     },
   },
 
   branding: {
     logo: {
-      main: "/full-logo.png",
-      mobile: "/full-logo-mobile.svg",
-      alt: "/placeholder.svg",
+      main: "https://www.kinderhotel-waldhof.at/hotel-aussen/winter/2024/1100/image-thumb__1100__ce-intro-mobile/andreschoenherr_PANO0001-Pano.jpg",
+      mobile: "https://www.kinderhotel-waldhof.at/hotel-aussen/winter/2024/1100/image-thumb__1100__ce-intro-mobile/andreschoenherr_PANO0001-Pano.jpg",
+      alt: "https://www.kinderhotel-waldhof.at/hotel-aussen/winter/2024/1100/image-thumb__1100__ce-intro-mobile/andreschoenherr_PANO0001-Pano.jpg",
     },
     dimensions: {
       mobile: { width: 132, height: 74 },
@@ -67,7 +67,7 @@ export const HOTEL_CONFIG = {
 
   copyright: {
     year: 2026,
-    holder: "Hotel Name",
+    holder: "Kinderhotel Waldhof",
   },
 };
 
@@ -76,18 +76,18 @@ export const HOTEL_CONFIG = {
 // ============================================
 export const BOOKING_CONFIG = {
   bookingUrls: {
-    de: "",
-    en: "",
-    it: "",
+    de: "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/",
+    en: "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/",
+    it: "https://www.kinderhotel-waldhof.at/zimmer-leistungen/urlaubsanfrage/",
   },
 
   dates: {
-    minBookingDate: "2026-02-21",
+    minBookingDate: "2026-03-09",
   },
 
   checkIn: {
-    from: "14:00",
-    to: "",
+    from: "15:00",
+    to: "20:00",
   },
 
   checkOut: {
@@ -95,10 +95,10 @@ export const BOOKING_CONFIG = {
   },
 
   touristTax: {
-    amount: 3.5,
+    amount: 2.5,
     currency: "EUR",
     per: "person/day",
-    exemptUnderAge: 14,
+    exemptUnderAge: 15,
   },
 
   cancellation: {
@@ -122,7 +122,7 @@ export const BOOKING_CONFIG = {
 // TECHNICAL_CONFIG - Dev/deployment settings
 // ============================================
 export const TECHNICAL_CONFIG = {
-  projectId: "hotel-template",
+  projectId: "A1033",
 
   urls: {
     production: "https://example.com",
@@ -134,9 +134,9 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "info@example.com",
-    replyTo: "info@example.com",
-    transactional: "hotel@updates.alpinads.app",
+    from: "noreply@example.com",
+    replyTo: "info@kinderhotel-waldhof.at",
+    transactional: "kinderhotel-waldhof@updates.alpinads.app",
     assetsBaseUrl: "https://example.com",
   },
 
@@ -151,45 +151,33 @@ export const TECHNICAL_CONFIG = {
 // ============================================
 export const SEO_CONFIG = {
   baseUrl: "https://example.com",
-  ogImage: "/placeholder.svg",
+  ogImage: "https://www.kinderhotel-waldhof.at/hotel-aussen/winter/2024/1100/image-thumb__1100__ce-intro-mobile/andreschoenherr_PANO0001-Pano.jpg",
 
   home: {
     de: {
-      title: "Hotel Name - Urlaub in Südtirol",
-      description:
-        "Willkommen im Hotel Name in Südtirol. Genießen Sie Ihren Urlaub mit Wellness, Frühstück und traumhaftem Blick auf die Dolomiten.",
-      ogTitle: "Hotel Name - Urlaub in Südtirol",
-      ogDescription:
-        "Hotel Name: Ihr Urlaubsziel in Südtirol mit Wellness und Frühstück.",
+      title: "Kinderhotel Waldhof Großarl – Premium Familienurlaub in Salzburg | All Inclusive",
+      description: "Das Premium Kinderhotel Waldhof in Großarl, Salzburg: Familienurlaub All Inclusive mit Skiwiese, TUFFI Spieleparadies, 80h Kinderbetreuung, Wellnesswelt & mehr. Jetzt unverbindlich anfragen!",
+      ogTitle: "Kinderhotel Waldhof Großarl – Unvergesslicher Familienurlaub in den Alpen",
+      ogDescription: "Premium Kinderhotel in Großarl, Salzburg. All Inclusive für die ganze Familie: Skiwiese, Indoor-Spieleparadies, Kinderbetreuung 80h/Woche, Wellnesswelt & Kulinarik. Träume werden wahr!",
       ogLocale: "de_DE",
     },
     en: {
-      title: "Hotel Name - Holiday in South Tyrol",
-      description:
-        "Welcome to Hotel Name in South Tyrol. Enjoy your holiday with wellness, breakfast and stunning views of the Dolomites.",
-      ogTitle: "Hotel Name - Holiday in South Tyrol",
-      ogDescription:
-        "Hotel Name: Your holiday destination in South Tyrol with wellness and breakfast.",
-      ogLocale: "en_US",
+      title: "Kinderhotel Waldhof Großarl – Premium Family Hotel in Salzburg | All Inclusive",
+      description: "The Premium Kinderhotel Waldhof in Großarl, Salzburg: Family holidays all inclusive with ski slope, TUFFI play paradise, 80h childcare, wellness world & more. Enquire now!",
+      ogTitle: "Kinderhotel Waldhof Großarl – Unforgettable Family Holidays in the Alps",
+      ogDescription: "Premium kids hotel in Großarl, Salzburg. All inclusive for the whole family: ski slope, indoor play paradise, 80h/week childcare, wellness world & cuisine. Dreams come true!",
+      ogLocale: "en_GB",
     },
     it: {
-      title: "Hotel Name - Vacanza in Alto Adige",
-      description:
-        "Benvenuti all'Hotel Name in Alto Adige. Godetevi la vostra vacanza con wellness, colazione e vista mozzafiato sulle Dolomiti.",
-      ogTitle: "Hotel Name - Vacanza in Alto Adige",
-      ogDescription:
-        "Hotel Name: La vostra destinazione di vacanza in Alto Adige con wellness e colazione.",
+      title: "Kinderhotel Waldhof Großarl – Hotel Premium per Famiglie a Salisburgo | All Inclusive",
+      description: "Il Premium Kinderhotel Waldhof a Großarl, Salisburgo: vacanze in famiglia all inclusive con pista da sci, paradiso giochi TUFFI, 80h assistenza bambini, mondo benessere e altro. Richiedi ora!",
+      ogTitle: "Kinderhotel Waldhof Großarl – Vacanze familiari indimenticabili sulle Alpi",
+      ogDescription: "Premium hotel per bambini a Großarl, Salisburgo. All inclusive per tutta la famiglia: pista da sci, paradiso giochi al coperto, 80h/settimana assistenza bambini, mondo benessere e cucina. I sogni diventano realtà!",
       ogLocale: "it_IT",
     },
   },
 
-  keywords: [
-    "Hotel Südtirol",
-    "Urlaub Dolomiten",
-    "Holiday South Tyrol",
-    "Vacanza Alto Adige",
-    "Wellness Südtirol",
-  ],
+  keywords: ["Kinderhotel Waldhof","Kinderhotel Großarl","Familienhotel Salzburg","Premium Kinderhotel Österreich","Familienurlaub Alpen","All Inclusive Kinderhotel","Skiurlaub mit Kindern","Kinderbetreuung Hotel","Familienhotel Salzburger Land","Winterurlaub Familie Österreich","Sommerurlaub Familie Salzburg","Hotel mit Spieleparadies","Familienhotel mit Wellness","Ponyreiten Hotel Kinder","Ski Amadé Familienhotel"],
 };
 
 // ============================================
@@ -270,7 +258,7 @@ export const hotelProfile: HotelProfile = {
     privacyBaseUrl: HOTEL_CONFIG.legal.privacy.de,
   },
   credits: { alpinAdsUrl: TECHNICAL_CONFIG.credits.agencyUrl },
-  logo: {
+   logo: {
     src: HOTEL_CONFIG.branding.logo.main,
     mobileSrc: HOTEL_CONFIG.branding.logo.mobile,
     mobile: HOTEL_CONFIG.branding.dimensions.mobile,
