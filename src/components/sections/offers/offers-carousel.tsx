@@ -1,0 +1,90 @@
+"use client";
+
+import useEmblaCarousel from "embla-carousel-react";
+import { ReactNode, useCallback, useEffect, useState } from "react";
+import { CaretLeftIcon, CaretRightIcon } from "@phosphor-icons/react";
+
+interface OffersCarouselProps {
+  slides: ReactNode[];
+}
+
+export function OffersCarousel({ slides }: OffersCarouselProps) {
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [canScrollPrev, setCanScrollPrev] = useState(false);
+  const [canScrollNext, setCanScrollNext] = useState(false);
+  const [canScroll, setCanScroll] = useState(true);
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    align: "start",
+  });
+
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return;
+    setSelectedIndex(emblaApi.selectedScrollSnap());
+    setCanScrollPrev(emblaApi.canScrollPrev());
+    setCanScrollNext(emblaApi.canScrollNext());
+    setCanScroll(emblaApi.canScrollPrev() || emblaApi.canScrollNext());
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+
+    queueMicrotask(onSelect);
+    emblaApi.on("select", onSelect);
+    emblaApi.on("resize", onSelect);
+    return () => {
+      emblaApi.off("select", onSelect);
+      emblaApi.off("resize", onSelect);
+    };
+  }, [emblaApi, onSelect]);
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  return (
+    <div className="relative">
+      <div className="overflow-hidden px-4 lg:px-5" ref={emblaRef}>
+        <div
+          className={`flex ${canScroll ? "-ml-4 lg:-ml-6" : "justify-center"}`}
+        >
+          {slides.map((slide, index) => (
+            <div
+              key={index}
+              className="flex-[0_0_100%] pl-4 md:flex-[0_0_50%] lg:flex-[0_0_33.333%] lg:pl-6"
+            >
+              {slide}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {canScroll && (
+        <div className="flex justify-center gap-4 pt-5 lg:justify-end lg:pt-6">
+          <button
+            onClick={scrollPrev}
+            className="bg-primary/0 hover:bg-primary/3 border-primary/30 flex size-12 cursor-pointer items-center justify-center rounded-full border transition-all disabled:pointer-events-none disabled:opacity-50"
+            aria-label={"Previous slide"}
+            disabled={!canScrollPrev}
+          >
+            <CaretLeftIcon className="text-primary size-5" weight="regular" />
+          </button>
+          <button
+            onClick={scrollNext}
+            className="bg-primary hover:bg-primary/90 flex size-12 cursor-pointer items-center justify-center rounded-full transition-all disabled:pointer-events-none disabled:opacity-50"
+            aria-label={"Next slide"}
+            disabled={!canScrollNext}
+          >
+            <CaretRightIcon
+              className="text-primary-foreground size-5"
+              weight="regular"
+            />
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}

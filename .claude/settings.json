@@ -1,0 +1,6 @@
+{
+  "enabledPlugins": {
+    "agent-browser@agent-browser": true,
+    "claude-md-management@claude-plugins-official": true
+  }
+}

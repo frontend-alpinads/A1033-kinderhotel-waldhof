@@ -1,0 +1,570 @@
+{
+  "$schema": "../variant-spec.schema.json",
+  "sectionVariants": [
+    { "hero": "v1" },
+    { "about": "v4" },
+    { "features": "v4" },
+    { "offers": "v1" },
+    { "rooms": "v6" },
+    { "gallery": "v5" },
+    { "testimonials": "v6" },
+    { "faqs": "v1" },
+    { "enquiry": "v1" },
+    { "footer": "v2" }
+  ],
+  "content": {
+    "hero": {
+      "title": {
+        "de": "Urlaub in Südtirol",
+        "en": "Holiday in South Tyrol",
+        "it": "Vacanza in Alto Adige"
+      },
+      "subtitle": {
+        "de": "Willkommen in unserem Hotel in den Dolomiten. Genießen Sie atemberaubende Berglandschaften, erstklassigen Service und unvergessliche Momente der Entspannung.",
+        "en": "Welcome to our hotel in the Dolomites. Enjoy breathtaking mountain landscapes, first-class service and unforgettable moments of relaxation.",
+        "it": "Benvenuti nel nostro hotel nelle Dolomiti. Godetevi paesaggi montani mozzafiato, servizio di prima classe e momenti di relax indimenticabili."
+      },
+      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "bookingForm": {
+        "arrivalDeparture": {
+          "de": "Datum wählen",
+          "en": "Select Date",
+          "it": "Seleziona Data"
+        },
+        "arrivalDepartureLabel": {
+          "de": "Ankunft & Abreise",
+          "en": "Arrival & Departure",
+          "it": "Arrivo e Partenza"
+        },
+        "guests": {
+          "de": "Gäste",
+          "en": "Guests",
+          "it": "Ospiti"
+        },
+        "guestsLabel": {
+          "de": "Anzahl der Gäste wählen",
+          "en": "Select Number of Guests",
+          "it": "Seleziona Numero di Ospiti"
+        },
+        "adultsFormat": {
+          "one": {
+            "de": "1 Erwachsener",
+            "en": "1 Adult",
+            "it": "1 adulto"
+          },
+          "other": {
+            "de": "{count} Erwachsene",
+            "en": "{count} Adults",
+            "it": "{count} adulti"
+          }
+        },
+        "childrenFormat": {
+          "one": {
+            "de": "1 Kind",
+            "en": "1 Child",
+            "it": "1 bambino"
+          },
+          "other": {
+            "de": "{count} Kinder",
+            "en": "{count} Children",
+            "it": "{count} bambini"
+          }
+        },
+        "requestOffer": {
+          "de": "Anfragen",
+          "en": "Request Offer",
+          "it": "Richiedi"
+        }
+      }
+    },
+    "about": {
+      "badge": {
+        "de": "Willkommen",
+        "en": "Welcome",
+        "it": "Benvenuti"
+      },
+      "title": {
+        "de": "Unser Hotel",
+        "en": "Our Hotel",
+        "it": "Il Nostro Hotel"
+      },
+      "description": {
+        "de": "Unser Hotel verbindet Tradition mit modernem Komfort. Eingebettet in die malerische Landschaft Südtirols, bieten wir Ihnen eine Oase der Ruhe und Entspannung. Genießen Sie großzügige Räumlichkeiten, erstklassigen Service und eine herzliche Atmosphäre.",
+        "en": "Our hotel combines tradition with modern comfort. Nestled in the picturesque landscape of South Tyrol, we offer you an oasis of peace and relaxation. Enjoy spacious rooms, first-class service and a warm atmosphere.",
+        "it": "Il nostro hotel unisce tradizione e comfort moderno. Immerso nel pittoresco paesaggio dell'Alto Adige, vi offriamo un'oasi di pace e relax. Godetevi spazi ampi, servizio di prima classe e un'atmosfera accogliente."
+      },
+      "images": [
+        "/placeholder.svg",
+        "/placeholder.svg",
+        "/placeholder.svg",
+        "/placeholder.svg",
+        "/placeholder.svg",
+        "/placeholder.svg",
+        "/placeholder.svg",
+        "/placeholder.svg",
+        "/placeholder.svg"
+      ]
+    },
+    "features": {
+      "badge": {
+        "de": "Ihre Urlaubs-Highlights",
+        "en": "Your Holiday Highlights",
+        "it": "I Vostri Lussi"
+      },
+      "title": {
+        "de": "Hochwertig, persönlich, natürlich",
+        "en": "High-quality, personalised, natural",
+        "it": "Qualità, intimità, naturalità"
+      },
+      "description": {
+        "de": "Erleben Sie unvergessliche Momente in Südtirol. Wandern, Skifahren, Wellness und kulinarische Genüsse erwarten Sie in einer der schönsten Regionen der Alpen.",
+        "en": "Experience unforgettable moments in South Tyrol. Hiking, skiing, wellness and culinary delights await you in one of the most beautiful regions of the Alps.",
+        "it": "Vivete momenti indimenticabili in Alto Adige. Escursioni, sci, wellness e delizie culinarie vi aspettano in una delle regioni più belle delle Alpi."
+      },
+      "items": [
+        {
+          "title": {
+            "de": "Restaurant & Terrasse",
+            "en": "Restaurant & Terrace",
+            "it": "Ristorante & Terrazza"
+          },
+          "description": {
+            "de": "Genießen Sie regionale Spezialitäten und internationale Küche auf unserer Sonnenterrasse mit Blick auf die Berge.",
+            "en": "Enjoy regional specialities and international cuisine on our sun terrace with mountain views.",
+            "it": "Gustate specialità regionali e cucina internazionale sulla nostra terrazza soleggiata con vista sulle montagne."
+          },
+          "imageSrc": "/placeholder.svg",
+          "iconName": "ForkKnifeIcon"
+        },
+        {
+          "title": {
+            "de": "Wellness & Spa",
+            "en": "Wellness & Spa",
+            "it": "Wellness & Spa"
+          },
+          "description": {
+            "de": "Entspannen Sie in unserem Wellnessbereich mit Sauna, Dampfbad und Behandlungsräumen.",
+            "en": "Relax in our wellness area with sauna, steam bath and treatment rooms.",
+            "it": "Rilassatevi nella nostra area wellness con sauna, bagno turco e sale trattamenti."
+          },
+          "imageSrc": "/placeholder.svg",
+          "iconName": "FlowerLotusIcon"
+        },
+        {
+          "title": {
+            "de": "Bergerlebnis",
+            "en": "Mountain Experience",
+            "it": "Esperienza Montana"
+          },
+          "description": {
+            "de": "Entdecken Sie die Dolomiten mit geführten Wanderungen, Skifahren und vielen weiteren Aktivitäten.",
+            "en": "Discover the Dolomites with guided hikes, skiing and many other activities.",
+            "it": "Scoprite le Dolomiti con escursioni guidate, sci e tante altre attività."
+          },
+          "imageSrc": "/placeholder.svg",
+          "iconName": "MountainIcon"
+        }
+      ]
+    },
+    "gallery": {
+      "badge": {
+        "de": "Eindrücke",
+        "en": "Impressions",
+        "it": "Impressioni"
+      },
+      "title": {
+        "de": "Entdecken Sie unser Hotel",
+        "en": "Discover Our Hotel",
+        "it": "Scoprite il Nostro Hotel"
+      },
+      "description": {
+        "de": "Werfen Sie einen Blick auf unsere Zimmer, den Wellnessbereich, das Restaurant und die atemberaubende Umgebung in den Dolomiten.",
+        "en": "Take a look at our rooms, wellness area, restaurant and the stunning surroundings in the Dolomites.",
+        "it": "Date un'occhiata alle nostre camere, all'area wellness, al ristorante e allo splendido paesaggio delle Dolomiti."
+      },
+      "viewAll": {
+        "de": "Alle Fotos ansehen",
+        "en": "View All Photos",
+        "it": "Guarda tutte le foto"
+      },
+      "tabs": {
+        "all": {
+          "de": "Alle",
+          "en": "All",
+          "it": "Tutte"
+        },
+        "apartments-suites": {
+          "de": "Apartments & Suites",
+          "en": "Apartments & Suites",
+          "it": "Appartamenti & Suite"
+        },
+        "wellness": {
+          "de": "Wellness",
+          "en": "Wellness",
+          "it": "Wellness"
+        },
+        "cuisine": {
+          "de": "Frühstück & Genuss",
+          "en": "Breakfast & Enjoyment",
+          "it": "Colazione & Piacere"
+        },
+        "experiences": {
+          "de": "Erlebnisse",
+          "en": "Experiences",
+          "it": "Esperienze"
+        }
+      },
+      "categories": {
+        "apartments-suites": "apartments-suites",
+        "wellness": "wellness",
+        "cuisine": "cuisine",
+        "experiences": "experiences"
+      },
+      "highlightImages": {
+        "desktop": [
+          "/placeholder.svg",
+          "/placeholder.svg",
+          "/placeholder.svg",
+          "/placeholder.svg",
+          "/placeholder.svg",
+          "/placeholder.svg",
+          "/placeholder.svg",
+          "/placeholder.svg"
+        ],
+        "mobile": [
+          "/placeholder.svg",
+          "/placeholder.svg",
+          "/placeholder.svg",
+          "/placeholder.svg"
+        ]
+      },
+      "popup": {
+        "title": {
+          "de": "Galerie",
+          "en": "Gallery",
+          "it": "Galleria"
+        },
+        "closeSrLabel": {
+          "de": "Galerie schließen",
+          "en": "Close gallery",
+          "it": "Chiudi galleria"
+        }
+      },
+      "images": [
+        {
+          "src": "/placeholder.svg",
+          "alt": {
+            "de": "Hotel Außenansicht",
+            "en": "Hotel exterior",
+            "it": "Esterno dell'hotel"
+          },
+          "category": "other"
+        },
+        {
+          "src": "/placeholder.svg",
+          "alt": {
+            "de": "Zimmer 1",
+            "en": "Room 1",
+            "it": "Camera 1"
+          },
+          "category": "apartments-suites"
+        },
+        {
+          "src": "/placeholder.svg",
+          "alt": {
+            "de": "Zimmer 2",
+            "en": "Room 2",
+            "it": "Camera 2"
+          },
+          "category": "apartments-suites"
+        },
+        {
+          "src": "/placeholder.svg",
+          "alt": {
+            "de": "Wellness 1",
+            "en": "Wellness 1",
+            "it": "Wellness 1"
+          },
+          "category": "wellness"
+        },
+        {
+          "src": "/placeholder.svg",
+          "alt": {
+            "de": "Wellness 2",
+            "en": "Wellness 2",
+            "it": "Wellness 2"
+          },
+          "category": "wellness"
+        },
+        {
+          "src": "/placeholder.svg",
+          "alt": {
+            "de": "Restaurant 1",
+            "en": "Restaurant 1",
+            "it": "Ristorante 1"
+          },
+          "category": "cuisine"
+        },
+        {
+          "src": "/placeholder.svg",
+          "alt": {
+            "de": "Restaurant 2",
+            "en": "Restaurant 2",
+            "it": "Ristorante 2"
+          },
+          "category": "cuisine"
+        },
+        {
+          "src": "/placeholder.svg",
+          "alt": {
+            "de": "Erlebnisse 1",
+            "en": "Experiences 1",
+            "it": "Esperienze 1"
+          },
+          "category": "experiences"
+        },
+        {
+          "src": "/placeholder.svg",
+          "alt": {
+            "de": "Erlebnisse 2",
+            "en": "Experiences 2",
+            "it": "Esperienze 2"
+          },
+          "category": "experiences"
+        }
+      ]
+    },
+    "enquiry": {
+      "badge": {
+        "de": "Ihre Anfrage",
+        "en": "Your Enquiry",
+        "it": "La Vostra Richiesta"
+      },
+      "title": {
+        "de": "Ihr perfekter Urlaub beginnt hier...",
+        "en": "Your Perfect Holiday Starts Here...",
+        "it": "La vostra vacanza perfetta inizia qui..."
+      },
+      "description": {
+        "de": "Wir freuen uns auf Ihre Anfrage! Unser Team berät Sie gerne persönlich und erstellt Ihnen ein individuelles Angebot für Ihren Traumurlaub in Südtirol.",
+        "en": "We look forward to your enquiry! Our team will be happy to advise you personally and create a customised offer for your dream holiday in South Tyrol.",
+        "it": "Non vediamo l'ora di ricevere la vostra richiesta! Il nostro team sarà lieto di consigliarvi personalmente e creare un'offerta personalizzata per la vostra vacanza da sogno in Alto Adige."
+      },
+      "backgroundImage": "/placeholder.svg",
+      "form": {
+        "roomType": {
+          "label": {
+            "de": "Zimmertyp",
+            "en": "Room Type",
+            "it": "Tipo di camera"
+          },
+          "roomOnly": {
+            "de": "Nur Zimmer",
+            "en": "Room Only",
+            "it": "Solo camera"
+          },
+          "roomWithOffer": {
+            "de": "Zimmer mit Angebot",
+            "en": "Room with Offer",
+            "it": "Camera con offerta"
+          }
+        },
+        "dates": {
+          "label": {
+            "de": "Ankunft und Abreise*",
+            "en": "Arrival and Departure*",
+            "it": "Arrivo e partenza*"
+          },
+          "alternative": {
+            "de": "Alternativer Termin",
+            "en": "Alternative Date",
+            "it": "Data alternativa"
+          }
+        },
+        "offer": {
+          "label": {
+            "de": "Angebot",
+            "en": "Offer",
+            "it": "Offerta"
+          },
+          "choose": {
+            "de": "Angebot auswählen",
+            "en": "Choose Offer",
+            "it": "Seleziona offerta"
+          }
+        },
+        "room": {
+          "label": {
+            "de": "Zimmer",
+            "en": "Room",
+            "it": "Camera"
+          },
+          "chooseWithGuests": {
+            "de": "Zimmer und Gästeanzahl",
+            "en": "Room and Number of Guests",
+            "it": "Camera e numero di ospiti"
+          }
+        },
+        "salutation": {
+          "label": {
+            "de": "Anrede",
+            "en": "Salutation",
+            "it": "Titolo"
+          },
+          "mr": {
+            "de": "Herr",
+            "en": "Mr",
+            "it": "Sig."
+          },
+          "mrs": {
+            "de": "Frau",
+            "en": "Mrs",
+            "it": "Sig.ra"
+          }
+        },
+        "firstName": {
+          "de": "Vorname*",
+          "en": "First Name*",
+          "it": "Nome*"
+        },
+        "lastName": {
+          "de": "Nachname*",
+          "en": "Last Name*",
+          "it": "Cognome*"
+        },
+        "phone": {
+          "de": "Telefon*",
+          "en": "Phone*",
+          "it": "Telefono*"
+        },
+        "email": {
+          "de": "E-Mail*",
+          "en": "Email*",
+          "it": "Email*"
+        },
+        "message": {
+          "de": "Nachricht",
+          "en": "Message",
+          "it": "Messaggio"
+        },
+        "newsletter": {
+          "de": "Ich möchte regelmäßig den Newsletter erhalten",
+          "en": "I would like to receive the newsletter regularly",
+          "it": "Desidero ricevere regolarmente la newsletter"
+        },
+        "privacyPolicy": {
+          "de": "*Ich akzeptiere die Datenschutzbestimmungen",
+          "en": "*I accept the privacy policy",
+          "it": "*Accetto l'informativa sulla privacy"
+        },
+        "responseTime": {
+          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot – wir freuen uns auf Sie!",
+          "en": "We will respond within 24 hours with your personalised offer – we look forward to welcoming you!",
+          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata – non vediamo l'ora di accogliervi!"
+        },
+        "submit": {
+          "de": "Jetzt Verfügbarkeit prüfen",
+          "en": "Check Availability Now",
+          "it": "Verifica disponibilità"
+        },
+        "submitting": {
+          "de": "Wird gesendet...",
+          "en": "Sending...",
+          "it": "Invio in corso..."
+        },
+        "openingNotice": {
+          "de": "",
+          "en": "",
+          "it": ""
+        }
+      }
+    },
+    "testimonials": {
+      "badge": {
+        "de": "Gästestimmen",
+        "en": "Guest Reviews",
+        "it": "Voci degli Ospiti"
+      },
+      "title": {
+        "de": "Was unsere Gäste sagen",
+        "en": "What Our Guests Say",
+        "it": "Cosa Dicono i Nostri Ospiti"
+      },
+      "description": {
+        "de": "Unsere Gäste schätzen die herzliche Atmosphäre, den erstklassigen Service und die atemberaubende Lage in den Dolomiten. Lesen Sie, was andere über ihren Aufenthalt bei uns berichten.",
+        "en": "Our guests appreciate the warm atmosphere, first-class service and stunning location in the Dolomites. Read what others have to say about their stay with us.",
+        "it": "I nostri ospiti apprezzano l'atmosfera calorosa, il servizio di prima classe e la posizione mozzafiato nelle Dolomiti. Leggete cosa dicono gli altri del loro soggiorno da noi."
+      },
+      "image": "/placeholder.svg"
+    },
+    "faqs": {
+      "badge": {
+        "de": "Gut zu wissen",
+        "en": "Good to Know",
+        "it": "Buono a Sapersi"
+      },
+      "title": {
+        "de": "Häufige Fragen",
+        "en": "Frequently Asked Questions",
+        "it": "Domande frequenti"
+      },
+      "description": {
+        "de": "Hier finden Sie Antworten auf die häufigsten Fragen zu Ihrem Aufenthalt. Bei weiteren Fragen steht Ihnen unser Team gerne zur Verfügung.",
+        "en": "Here you will find answers to the most common questions about your stay. If you have any further questions, our team will be happy to help.",
+        "it": "Qui troverete le risposte alle domande più frequenti sul vostro soggiorno. Per ulteriori domande, il nostro team sarà lieto di aiutarvi."
+      }
+    },
+    "offers": {
+      "badge": {
+        "de": "Angebote",
+        "en": "Offers",
+        "it": "Offerte"
+      },
+      "title": {
+        "de": "Unsere aktuellen Angebote",
+        "en": "Our Current Offers",
+        "it": "Le Nostre Offerte Attuali"
+      },
+      "description": {
+        "de": "Entdecken Sie unsere saisonalen Angebote für Ihren perfekten Urlaub in Südtirol – ob Wellness, Wandern, Skifahren oder kulinarische Erlebnisse.",
+        "en": "Discover our seasonal offers for your perfect holiday in South Tyrol – whether wellness, hiking, skiing or culinary experiences.",
+        "it": "Scoprite le nostre offerte stagionali per la vostra vacanza perfetta in Alto Adige – che sia wellness, escursioni, sci o esperienze culinarie."
+      }
+    },
+    "rooms": {
+      "badge": {
+        "de": "ZIMMER & SUITEN",
+        "en": "ROOMS & SUITES",
+        "it": "CAMERE & SUITE"
+      },
+      "title": {
+        "de": "Unsere Unterkünfte",
+        "en": "Our Accommodations",
+        "it": "I Nostri Alloggi"
+      },
+      "description": {
+        "de": "Komfortable Zimmer und Suiten mit Blick auf die Berge. Moderne Ausstattung und traditioneller Südtiroler Charme vereinen sich zu einem einzigartigen Wohnerlebnis.",
+        "en": "Comfortable rooms and suites with mountain views. Modern amenities and traditional South Tyrolean charm combine to create a unique living experience.",
+        "it": "Camere e suite confortevoli con vista sulle montagne. Comfort moderni e fascino tradizionale altoatesino si uniscono per un'esperienza abitativa unica."
+      },
+      "tabs": {
+        "all": {
+          "de": "Alle",
+          "en": "All",
+          "it": "Tutte"
+        },
+        "rooms": {
+          "de": "Zimmer",
+          "en": "Rooms",
+          "it": "Camere"
+        },
+        "suites": {
+          "de": "Suiten",
+          "en": "Suites",
+          "it": "Suite"
+        }
+      },
+      "logoImage": "/placeholder.svg"
+    }
+  }
+}
