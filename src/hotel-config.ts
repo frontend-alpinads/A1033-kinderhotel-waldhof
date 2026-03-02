@@ -125,7 +125,7 @@ export const TECHNICAL_CONFIG = {
   projectId: "A1033",
 
   urls: {
-    production: "https://example.com",
+    production: "https://offers.kinderhotel-waldhof.at",
     staging: "",
   },
 
@@ -134,10 +134,10 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "noreply@example.com",
+    from: "noreply@kinderhotel-waldhof.at",
     replyTo: "info@kinderhotel-waldhof.at",
     transactional: "kinderhotel-waldhof@updates.alpinads.app",
-    assetsBaseUrl: "https://example.com",
+    assetsBaseUrl: "https://offers.kinderhotel-waldhof.at",
   },
 
   credits: {
@@ -150,7 +150,7 @@ export const TECHNICAL_CONFIG = {
 // SEO_CONFIG - Metadata for all languages
 // ============================================
 export const SEO_CONFIG = {
-  baseUrl: "https://example.com",
+  baseUrl: "https://offers.kinderhotel-waldhof.at",
   ogImage: "https://www.kinderhotel-waldhof.at/hotel-aussen/winter/2024/1100/image-thumb__1100__ce-intro-mobile/andreschoenherr_PANO0001-Pano.jpg",
 
   home: {
